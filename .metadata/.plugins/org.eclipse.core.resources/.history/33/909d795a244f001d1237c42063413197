@@ -1,0 +1,22 @@
+package Inheritance;
+
+public class BusDepot {
+
+	public static void main(String[] args) {
+		Driver brian = new Driver();
+		
+		brian.setName("John");
+		brian.setPhoneNumber(110);
+		System.out.println(brian.getName());
+		
+		Bus busOne = new Bus();
+		
+		busOne.setMake("Volvo");
+		busOne.setNumberOfSeats(45);
+		busOne.setDriver(brian);
+		
+		System.out.println(busOne.toString());
+
+	}
+
+}

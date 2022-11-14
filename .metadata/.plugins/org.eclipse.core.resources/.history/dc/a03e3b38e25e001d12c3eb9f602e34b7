@@ -1,0 +1,16 @@
+package week8Lambdas;
+
+interface Printable{
+	void print();
+}
+
+public class Lambasexample {
+
+	public static void main(String[] args) {
+		Cat mycat = new Cat();
+		
+		mycat.print();
+
+	}
+
+}

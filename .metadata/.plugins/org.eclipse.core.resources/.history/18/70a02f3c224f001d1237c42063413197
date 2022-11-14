@@ -1,0 +1,13 @@
+package Inheritance;
+
+public class BusDepot {
+
+	public static void main(String[] args) {
+		Driver brian = new Driver();
+		
+		brian.setName("John");
+		brian.setPhoneNumber(110);
+
+	}
+
+}

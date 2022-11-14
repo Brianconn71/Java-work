@@ -1,0 +1,8 @@
+package Inheritance;
+
+public class Bus {
+	private int numberOfSeats;
+	private int busCount;
+	
+
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;flightservices/flight.sql.txt&apos; to &apos;flight.sql&apos;" description="Rename resource &apos;flight.sql.txt&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="flight.sql.txt" name="flight.sql" stamp="1668113851386" updateReferences="true"/>
+</session>

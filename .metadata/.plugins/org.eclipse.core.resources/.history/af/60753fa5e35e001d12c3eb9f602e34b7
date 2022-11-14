@@ -1,0 +1,22 @@
+package week8Lambdas;
+
+interface Printable{
+	void print();
+}
+
+public class Lambasexample {
+
+	public static void main(String[] args) {
+		Cat mycat = new Cat();
+		
+		Printable y = () -> System.out.println("Meow");
+		
+		printThing(y);
+
+	}
+	
+	static void printThing(Printable thing) {
+		thing.print();
+	}
+
+}

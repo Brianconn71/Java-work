@@ -1,0 +1,52 @@
+package com.ait.ex662;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class ArrayListPeople {
+
+	static Scanner sc = new Scanner(System.in);
+	
+	public static void main(String[] args) {
+		
+		
+		
+	}
+	public static int userChoice() {
+		System.out.println("What do You want to do?");
+		String [] myArray = {"Add", "update", "delete a person", "delete everyone", "find a person", "display", "exit"};
+		
+		for(int i = 1; 1<=myArray.length;i++) {
+			System.out.println(i);
+		}
+	}
+	
+	public static void add(ArrayList<Person> people) {
+		
+	}
+	
+	public static int personThereAlready(String name, ArrayList<Person> people) {
+		return 0;
+	}
+	
+	public static void update(ArrayList<Person> people) {
+		
+	}
+	
+	public static void deletePerson(ArrayList<Person> people) {
+		
+	}
+	
+	public static void deleteEveryone(ArrayList<Person> people) {
+		
+	}
+	
+	public static void findPersonByName(ArrayList<Person> people) {
+		
+	}
+	
+	public static void display(ArrayList<Person> people) {
+		
+	}
+
+}
